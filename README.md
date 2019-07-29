@@ -10,5 +10,11 @@ This is a free and open-source project for providing basic useful information ab
 ### We want to promote open source programming 
 Yes, everyone developer deserves better and what better way than to allow developers to help each other, by working in an open source project.
 
+### Technical Aspects
+This web page is a one page website, build using bootstrap css, jquery and datatables.
+It will be available in English, Khasi and Garo languages.
+Basically the table is made using DataTables and open source project on github: https://datatables.net
+More specifically: https://datatables.net/examples/styling/bootstrap4.html
+
 
 
