@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  
+  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+
+</head>
+<body>
+
+<div class="container text-center">
+  <br/><br/>
+  <h2>Welcome to Hopital Lists</h2>
+  <p>This is a open-source project for providing basic useful information about different hospitals in Meghalaya, to people, all in one place.<br/></p> 
+  <p>
+  </p>
+  <br/>
+   <!--<div class=" table-responsive">-->
+    <table id="example" class="table table-striped table-bordered table-condensed" style="width:100%">
+        <thead>
+            <tr>
+                <th>Sl. No</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>Visiting Hours</th>
+                <th>Visiting Hours</th>                
+            </tr>
+        </thead>
+        <tbody>            
+             <tr>
+                <td>1.</td>
+                <td>Bethany Hospital </td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Children's Hospital</td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>
+             <tr>
+                <td>3.</td>
+                <td>Civil Hospital </td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>
+             <tr>
+                <td>4.</td>
+                <td>Ganesh Das Hospital</td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>
+             <tr>
+                <td>5.</td>
+                <td>KJP Robert G. Hospital</td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>           
+             <tr>
+                <td>6.</td>
+                <td>Nazareth Hospital </td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>
+             <tr>
+                <td>7.</td>
+                <td>Super Care Hospital</td>
+                <td>Shillong</td>
+                <td>11:30 AM - 1:30 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>
+            <tr>
+                <td>8.</td>
+                <td>Woodland Hospital</td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>                      
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Sl. No</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>Visiting Hours</th>
+                <th>Visiting Hours</th>  
+            </tr>
+        </tfoot>
+    </table>
+    <!--</div>-->
+    <p>
+      <br/>
+       Anyone can come along and contribute information, if you know HTML then simple <a href="https://github.com/sngur/Hospitals-List">fork this project on github</a>, add/update information and make a pull request with your contributions, if you don't know HTML then simply send in your information to our email address : <a href="mailto:sngurshillong@gmail.com">sngurshillong@gmail.com</a> and we will update this page.
+    </p>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>-->
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#example').DataTable();
+} );
+</script>
+</body>
+</html>
