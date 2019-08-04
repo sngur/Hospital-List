@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hospital List | Sngur | Hindi</title>
+  <meta name="description" content="A list of basic information of different hospitals in Meghalaya">
+  <meta name="author" content="Sngur Shillong">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+  <link rel="icon" type="image/png" href="https://sngur.github.io/Hospital-List/dist/images/favicon.png">
+</head>
+<body>
+
+<div class="container text-center">
+  <br/><br/>
+  <h2>Welcome to Hospital List</h2>
+  <p>यह मेघालय के विभिन्न अस्पतालों के बारे में, सभी लोगों को, एक ही स्थान पर बुनियादी उपयोगी जानकारी प्रदान करने के लिए एक ओपन-सोर्स प्रोजेक्ट है।
+  <br/><i>yah meghaalay ke vibhinn aspataalon ke baare mein, sabhee logon ko, ek hee sthaan par buniyaadee upayogee jaanakaaree pradaan karane ke lie ek open-source projekt hai.</i><br/></p> 
+  <p style="background-color:#428bca;margin:10px;padding:10px;color:white;">You are currently viewing this website in Hindi. 
+	  Switch to another Language: <br/> <a class="btn btn-primary" href="https://sngur.github.io/Hospital-List/english/" >English</a> <a class="btn btn-success" href="https://sngur.github.io/Hospital-List/">Khasi</a> <a class="btn btn-warning" style='color:black;'>Garo</a>&nbsp; <a class="btn btn-danger">Pnar</a></p>
+  <p>  
+  <br/>   
+  <h5>Visiting Hours</h5>
+	<table id="visit" class="table table-striped table-bordered table-condensed" style="width:100%">
+        <thead>
+            <tr>                
+                <th>Name</th>                
+                <th>Visiting Hours</th>
+                <th>Visiting Hours</th>                
+		<th>City</th>
+            </tr>
+        </thead>
+        <tbody>            
+             <tr>                
+                <td>Bethany Hospital </td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+		<td>Shillong</td>
+            </tr>
+            <tr>                
+                <td>Children's Hospital</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+		<td>Shillong</td>
+            </tr>
+             <tr>                
+                <td>Civil Hospital </td>                
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 6:00 PM</td>                
+		<td>Shillong</td>
+            </tr>
+             <tr>                
+                <td>Ganesh Das Hospital</td>                
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td> 
+		<td>Shillong</td>				
+            </tr>
+             <tr>                
+                <td>KJP Robert G. Hospital</td>                
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>    
+		<td>Shillong</td>				
+            </tr>           
+             <tr>                
+                <td>NEIGRIHMS </td>                
+                <td>7:00 AM - 11:00 AM</td>
+                <td>03:00 PM -68:00 PM</td>                
+		<td>Shillong</td>
+            </tr>
+          <tr>                
+                <td>Nazareth Hospital </td>                
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+		<td>Shillong</td>
+            </tr>
+             <tr>                
+                <td>Super Care Hospital</td>                
+                <td>11:30 AM - 1:30 PM</td>
+                <td>04:00 PM - 8:00 PM</td>
+		<td>Shillong</td>                
+            </tr>
+            <tr>                
+                <td>Woodland Hospital</td>                
+                <td>8:00 AM - 9:00 AM <br/>11:00 AM - 1:30 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+		<td>Shillong</td>
+            </tr>                      
+        </tbody>
+        <tfoot>
+            <tr>                
+                <th>Name</th>
+                <th>Visiting Hours</th>
+                <th>Visiting Hours</th>  
+		<th>City</th>
+            </tr>
+        </tfoot>
+    </table>
+    </p>
+	<p style='background-color:#232323'>
+	<br/>
+	<h5>Detailed Information</h5>
+    <table id="details" class="table table-striped table-bordered table-condensed" style="width:100%">
+        <thead>
+            <tr>
+                <th>Sl. No</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>Visiting Hours</th>
+                <th>Visiting Hours</th>                
+            </tr>
+        </thead>
+        <tbody>            
+             <tr>
+                <td>1.</td>
+                <td>Bethany Hospital </td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Children's Hospital</td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>
+             <tr>
+                <td>3.</td>
+                <td>Civil Hospital </td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 6:00 PM</td>                
+            </tr>
+             <tr>
+                <td>4.</td>
+                <td>Ganesh Das Hospital</td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>
+             <tr>
+                <td>5.</td>
+                <td>KJP Robert G. Hospital</td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>           
+             <tr>
+                <td>6.</td>
+                <td>NEIGRIHMS </td>
+                <td>Shillong</td>
+                <td>7:00 AM - 11:00 AM</td>
+                <td>03:00 PM -68:00 PM</td>                
+            </tr>
+          <tr>
+                <td>6.</td>
+                <td>Nazareth Hospital </td>
+                <td>Shillong</td>
+                <td>11:00 AM - 1:00 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>
+             <tr>
+                <td>7.</td>
+                <td>Super Care Hospital</td>
+                <td>Shillong</td>
+                <td>11:30 AM - 1:30 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>
+            <tr>
+                <td>8.</td>
+                <td>Woodland Hospital</td>
+                <td>Shillong</td>
+                <td>8:00 AM - 9:00 AM <br/>11:00 AM - 1:30 PM</td>
+                <td>04:00 PM - 8:00 PM</td>                
+            </tr>                      
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Sl. No</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>Visiting Hours</th>
+                <th>Visiting Hours</th>  
+            </tr>
+        </tfoot>
+    </table>
+    </p>
+    <p>
+      <br/>
+       कोई भी साथ आ सकता है और जानकारी का योगदान कर सकता है, यदि आप HTML को सरल जानते हैं तो <a href="https://github.com/sngur/Hospital-List">fork this project on github</a>, जानकारी जोड़ें / अपडेट करें और अपने योगदान के साथ एक "new pull request" बनाएं, यदि आप HTML नहीं जानते हैं तो बस अपनी जानकारी हमारे ईमेल पते पर भेजें:  <a href="mailto:sngurshillong@gmail.com">sngurshillong@gmail.com</a> और हम इस पेज को अपडेट करेंगे।
+       <br/><i>koee bhee saath aa sakata hai aur jaanakaaree ka yogadaan kar sakata hai, yadi aap html jaanate hain to jeethab par is projekt ko saral kaanta, jaanakaaree joden / apadet karen aur apane yogadaan ke saath ek "new pull request" banaen, yadi aap html nahin jaanate hain to bas </i>
+    </p>
+    <p class="text-center"><hr/>
+	This is a non-profit and ad-free website, developed by<br/>
+	<a href="http://sngur.com"><img src="https://sngur.github.io/Hospital-List/images/sngur.png" width="100px" /></a>
+	<h5>We are Social, You can find us:</h5><br/>
+	<a href="https://facebook.com/sngur.shillong"><img src="https://sngur.github.io/Hospital-List/images/fb_small.png" width="25px" / ></a>
+	<a href="https://instagram.com/sngur_shillong"><img src="https://sngur.github.io/Hospital-List/images/ig_small.png" width="25px" / ></a>
+	<a href="https://github.com/sngur"><img src="https://sngur.github.io/Hospital-List/images/git_small.png" width="25px" / ></a>	
+    </p>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+	  $('#details').DataTable();
+	  $('#visit').DataTable();
+} );
+</script>
+</body>
+</html>
