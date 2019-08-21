@@ -17,4 +17,7 @@ Basically the table is made using DataTables and open source project on github: 
 More specifically: https://datatables.net/examples/styling/bootstrap4.html
 
 
+### Contributors
+Special Thanks to all our contributors who helped in making this website available in different Languages.
 
+Mizo Version Contributed by: Vanlalchhuanmawia (Moya)
